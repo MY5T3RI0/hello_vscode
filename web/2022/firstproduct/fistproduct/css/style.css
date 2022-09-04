@@ -1,0 +1,18 @@
+body {
+	background-color: coral;
+}
+header{
+	background-color: aqua;
+}
+.main {
+	background-color: cornsilk;
+}
+img {
+	height: auto;
+	width: 200px;
+
+}
+footer{
+	background-color: aqua;
+	height: 10%;
+}
