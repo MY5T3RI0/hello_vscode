@@ -132,7 +132,11 @@
 	}
 
 	&__slider {
-		background: url('../img/slider/44.png') center/100% 100% no-repeat, url('../img/slider/43.png') center/100% 100% no-repeat;
+		background: url('../img/slider/44.png') center/auto 100% no-repeat, url('../img/slider/43.png') center/auto 100% no-repeat;
+
+		@media (min-width: 1920px) {
+			background: url('../img/slider/44.png') center/100% 100% no-repeat, url('../img/slider/43.png') center/100% 100% no-repeat;
+		}
 	}
 
 	&__partners {
